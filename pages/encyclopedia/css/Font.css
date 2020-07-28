@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'kanitregular';
+    src: url('kanit-regular-webfont.woff2') format('woff2'),
+         url('kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'kanitregular';
+}
+
+.class-bigsize {
+	font-size: 1000px;
+}
+
+.removedec {
+	text-decoration: none
+}
