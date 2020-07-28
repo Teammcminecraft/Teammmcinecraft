@@ -78,3 +78,7 @@ nav ul li a:hover:after {
 	-webkit-transform: translateX(-50%) scaleX(1);
 	transform: translateX(-50%) scaleX(1);
 }
+
+.active {
+	color: #DAA520;
+}
