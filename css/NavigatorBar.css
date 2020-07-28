@@ -1,0 +1,80 @@
+/* CSS Document */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+header {
+	background-color: #FFFFFF;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+body {
+	background-image: url("../image/Thumb1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	position: absolute;
+	top: 37px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-flex;
+}
+
+nav ul li a {
+	position: relative;
+	padding: 8px 20px;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 16px;
+}
+
+nav ul li a:hover {
+	color: 	#DAA520;
+	transition: 9s;
+}
+
+nav ul li a:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%) scaleX(0);
+	-webkit-trasform: translateX(-50%) scaleX(0);
+	-webkit-trasform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	width: 80%;
+	height: 2px;
+	background-color: #DAA520;
+	-webkit-transition: transform 250ms;
+	transition: transform 250ms;
+}
+nav ul li a:hover:after {
+	-webkit-transform: translateX(-50%) scaleX(1);
+	transform: translateX(-50%) scaleX(1);
+}
