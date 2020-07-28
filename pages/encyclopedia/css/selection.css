@@ -11,7 +11,7 @@
 .text-select {
 	color: #fff;
 	font-size: 35px;
-	font-family: 'kanitregular';
+	font-family: 'arial';
 	margin-left: 170px;
 	margin-top: -70px;
 }
@@ -19,7 +19,7 @@
 .textdes-select {
 	color: #fff;
 	font-size: 15px;
-	font-family: 'kanitregular';
+	font-family: 'arial';
 	margin-left: 170px;
 	margin-top: 5px;
 }
