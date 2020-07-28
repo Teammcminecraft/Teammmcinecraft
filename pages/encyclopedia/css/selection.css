@@ -1,0 +1,30 @@
+/* CSS Document */
+
+.container-selection {
+	background: #0074FF;
+	border: solid 2px #FFFFFF;
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.text-select {
+	color: #fff;
+	font-size: 35px;
+	font-family: 'kanitregular';
+	margin-left: 170px;
+	margin-top: -70px;
+}
+
+.textdes-select {
+	color: #fff;
+	font-size: 15px;
+	font-family: 'kanitregular';
+	margin-left: 170px;
+	margin-top: 5px;
+}
+
+.img1-pos {
+	margin-top: 10px;
+	margin-left: 5px;
+}
